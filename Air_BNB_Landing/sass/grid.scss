@@ -1,0 +1,66 @@
+$cel-count: 12;
+$cell-size: 100% / 12;
+
+$screen-lg: 1400px;
+$screen-md: 992px;
+$screen-sm: 768px;
+$screen-xs: 576px;
+
+.grid-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+@for $index from 1 to $cel-count + 1 {
+  .col-#{$index} {
+    width: $cell-size * $index;
+  }
+  .col-offset-#{$index} {
+    margin-left: $cell-size * $index;
+  }
+}
+
+@media (max-width: $screen-lg - 1px) {
+  @for $index from 1 to $cel-count + 1 {
+    .col-lg-#{$index} {
+      width: $cell-size * $index;
+    }
+    .col-lg-offset-#{$index} {
+      margin-left: $cell-size * $index;
+    }
+  }
+}
+
+@media (max-width: $screen-md - 1px) {
+  @for $index from 1 to $cel-count + 1 {
+    .col-md-#{$index} {
+      width: $cell-size * $index;
+    }
+    .col-md-offset-#{$index} {
+      margin-left: $cell-size * $index;
+    }
+  }
+}
+
+@media (max-width: 768px - 1px) {
+  @for $index from 1 to $cel-count + 1 {
+    .col-sm-#{$index} {
+      width: $cell-size * $index;
+    }
+    .col-sm-offset-#{$index} {
+      margin-left: $cell-size * $index;
+    }
+  }
+}
+
+@media (max-width: 576px - 1px) {
+  @for $index from 1 to $cel-count + 1 {
+    .col-xs-#{$index} {
+      width: $cell-size * $index;
+    }
+    .col-xs-offset-#{$index} {
+      margin-left: $cell-size * $index;
+    }
+  }
+}

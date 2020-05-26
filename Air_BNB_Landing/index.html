@@ -1,0 +1,655 @@
+<!DOCTYPE html
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air BNB</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/content.css" />
+  </head>
+  <body>
+    <section class="page-head container">
+      <header class="global-menu" id="menu">
+        <button class="global-menu__toggle" id="btn">
+          <figure class="logo">
+            <svg
+              viewBox="0 0 1000 1000"
+              role="presentation"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path
+                d="m499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z"
+              ></path>
+            </svg>
+          </figure>
+        </button>
+        <nav class="global-menu__nav nav">
+          <a href="" class="nav__link">Become a host</a>
+          <a href="" class="nav__link">Saved</a>
+          <a href="" class="nav__link">Tips</a>
+          <a href="" class="nav__link">Messages</a>
+          <a href="" class="nav__link nav__link_help">Help</a>
+        </nav>        
+      </header>
+      <div class="form__header_mobile">
+        <h1 class="mobile__header">
+          Book unique places to stay and things to do.
+        </h1>
+      </div>
+    </section>
+    <!-- refister form -->
+    <div class="register__form form desctop_form">
+      <form action="search" class="form__content">
+        <h1 class="form__header sm-display">
+          Book unique places to stay and things to do.
+        </h1>
+        <div class="form__input input">
+          <p class="input__header">where</p>
+          <input class="input__field" type="text" placeholder="Anywhere" />
+          <div class="input__middle-line">
+            <div class="middle-line_left date-check">
+              <p class="input__header">check-in</p>
+              <input class="input__field" type="text" placeholder="dd/mm/yyyy" />
+            </div>
+            <div class="middle-line_right date-check">
+              <p class="input__header">checkout</p>
+              <input class="input__field" type="text" placeholder="dd/mm/yyyy" />
+            </div>
+          </div>
+          <p class="input__header">guests</p>
+          <input class="input__field" type="text" placeholder="Guests" />
+        </div>
+        <div class="input__btn">
+          <button class="btn">Search</button>
+        </div>
+      </form>
+    </div>
+    <!-- refister form end-->
+    <main class="page-main">
+      <div class="global-content explorings ">
+        <div class="exploring__header block-header">
+          <a href="#" class="block-header_ref"><h2 class="block-header_text">
+            Explore Airbnb
+          </h2></a>
+        </div>
+        <div class="explorings__content grid-container">
+          <div class="col-4 col-md-4 col-sm-12 col-xs-12 explorings__item">
+            <div class="exploring">
+              <a class="exploring__link" href="#"></a>
+              <div class="exploring__image">
+                <img src="./assets/images/first_block/room.png" alt="">
+              </div>
+              <div class="exploring__description">
+                Stays
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-4 col-sm-12 col-xs-12 explorings__item">
+            <div class="exploring">
+              <a class="exploring__link" href="#"></a>
+              <div class="exploring__image">
+                <img src="./assets/images/first_block/pair.png" alt="">
+              </div>
+              <div class="exploring__description">
+                Experiences
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-md-4 col-sm-12 col-xs-12 explorings__item">
+            <div class="exploring">
+              <a class="exploring__link" href="#"></a>
+              <div class="exploring__image">
+                <img src="./assets/images/first_block/second_pair.png" alt="">
+              </div>
+              <div class="exploring__description">
+                Adventures
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="global-content introductions">
+        <div class="introduction__header block-header">
+          <a href="#" class="block-header_ref"><h2 class="block-header_text">
+            Introducing Airbnb Adventures
+          </h2><h4 class="block-header_description">Multi-day trips led by local experts – activities, meals, and stays
+            included.</h4></a>
+        </div>
+        <div class="introduction__content grid-container">
+          <div class="col-2 col-md-3 col-sm-6 col-xs-12 promotions__item">
+            <div class="introduction">
+              <a class="introduction__link" href="#"></a>
+              <div class="introduction__image">
+                <img src="./assets/images/third_block/third-block_1.jpg" alt="">
+              </div>
+              <div class="introduction__content">
+                <div class="introduction__description">
+                  <h4 class="introduction__country">
+                    marocco
+                  </h4>
+                  <h3 class="introduction__title">
+                    Atlas Mountains Experience
+                  </h3>
+                  <h3 class="introduction__price">From £76/person ᛫ 2 days</h3>                  
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="col-2 col-md-3 col-sm-6 col-xs-12 promotions__item">
+            <div class="introduction">
+              <a class="introduction__link" href="#"></a>
+              <div class="introduction__image">
+                <img src="./assets/images/third_block/third-block_2.jpeg" alt="">
+              </div>
+              <div class="introduction__content">
+                <div class="introduction__description">
+                  <h4 class="introduction__country">
+                    norway
+                  </h4>
+                  <h3 class="introduction__title">
+                    2 Nights PACKAGE All Inclusive
+                  </h3>
+                  <h3 class="introduction__price">From £485/person ᛫ 3 days</h3>                  
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="col-2 col-md-3 col-sm-6 col-xs-12 promotions__item">
+            <div class="introduction">
+              <a class="introduction__link" href="#"></a>
+              <div class="introduction__image">
+                <img src="./assets/images/third_block/third-block_3.jpg" alt="">
+              </div>
+              <div class="introduction__content">
+                <div class="introduction__description">
+                  <h4 class="introduction__country">
+                    tanzania, united republic
+                  </h4>
+                  <h3 class="introduction__title">
+                    The Family Friendly Safari
+                  </h3>
+                  <h3 class="introduction__price">From £2,130/person ᛫ 6 days</h3>                  
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="col-2 col-md-3 col-sm-6 col-xs-12 promotions__item">
+            <div class="introduction">
+              <a class="introduction__link" href="#"></a>
+              <div class="introduction__image">
+                <img src="./assets/images/third_block/third-block_4.jpg" alt="">
+              </div>
+              <div class="introduction__content">
+                <div class="introduction__description">
+                  <h4 class="introduction__country">
+                    italy
+                  </h4>
+                  <h3 class="introduction__title">
+                    Walking in Leonardo's Tuscany
+                  </h3>
+                  <h3 class="introduction__price">From £244/person ᛫ 2 days</h3>                  
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="col-2 col-md-3 col-sm-6 col-xs-12 promotions__item md-screen-displ">
+            <div class="introduction">
+              <a class="introduction__link" href="#"></a>
+              <div class="introduction__image">
+                <img src="./assets/images/third_block/third-block_5.jpg" alt="">
+              </div>
+              <div class="introduction__content">
+                <div class="introduction__description">
+                  <h4 class="introduction__country">
+                    nepal
+                  </h4>
+                  <h3 class="introduction__title">
+                    Out of the world experience In Nepal
+                  </h3>
+                  <h3 class="introduction__price">From £708/person ᛫ 7 days</h3>                  
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="col-2 col-md-3 col-sm-6 col-xs-12 promotions__item md-screen-displ">
+            <div class="introduction">
+              <a class="introduction__link" href="#"></a>
+              <div class="introduction__image">
+                <img src="./assets/images/third_block/third-block_6.jpg" alt="">
+              </div>
+              <div class="introduction__content">
+                <div class="introduction__description">
+                  <h4 class="introduction__country">
+                    italy
+                  </h4>
+                  <h3 class="introduction__title">
+                    HIKE ABOVE LAKE&VILLAGE with GUIDE-2d.
+                  </h3>
+                  <h3 class="introduction__price">From £177/person ᛫ 2 days</h3>                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-block__footer">
+          <a href="#" class="content-block__ref">Show all adventures</a>
+        </div>
+      </div>
+      <div class="global-content promotions">
+        <div class="promotion__header block-header">
+          <a href="#" class="block-header_ref"><h2 class="block-header_text">
+            Place to stay around the world
+          </h2></a>
+        </div>
+        <div class="promotions__content grid-container">
+          <div class="col-3 col-md-4 col-sm-6 col-xs-12 promotions__item">
+            <div class="promotion">
+              <a class="promotion__link" href="#"></a>
+              <div class="promotion__image">
+                <img src="./assets/images/forth_block/forth-block_1.jpg" alt="">
+              </div>
+              <div class="promotion__content">
+                <div class="promotion__description">
+                  <h4 class="promotion__country">
+                    Poland
+                  </h4>
+                  <div class="promotion__rating">4,8</div>
+                </div>
+                <h3 class="promotion__title">
+                  Amazing and Extremely Central Flat
+                </h3>
+              </div>
+              <div class="promotion__footer">
+                <div class="promotion__price">
+                  <span class="text-bold">$156</span> / night
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-4 col-sm-6 col-xs-12 promotions__item">
+            <div class="promotion">
+              <a class="promotion__link" href="#"></a>
+              <div class="promotion__image">
+                <img src="./assets/images/forth_block/forth-block_2.jpg" alt="">
+              </div>
+              <div class="promotion__content">
+                <div class="promotion__description">
+                  <h4 class="promotion__country">
+                    Thailand
+                  </h4>
+                  <div class="promotion__rating">4,69</div>
+                </div>
+                <h3 class="promotion__title">
+                  Designer Loft Bangkok Silom
+                </h3>
+              </div>
+              <div class="promotion__footer">
+                <div class="promotion__price">
+                  <span class="text-bold">$350</span> / night
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-4 col-sm-6 col-xs-12 promotions__item">
+            <div class="promotion">
+              <a class="promotion__link" href="#"></a>
+              <div class="promotion__image">
+                <img src="./assets/images/forth_block/forth-block_3.jpg" alt="">
+              </div>
+              <div class="promotion__content">
+                <div class="promotion__description">
+                  <h4 class="promotion__country">
+                    Croatia
+                  </h4>
+                  <div class="promotion__rating">4,88</div>
+                </div>
+                <h3 class="promotion__title">
+                  Villa Humac Hvar
+                </h3>
+              </div>
+              <div class="promotion__footer">
+                <div class="promotion__price">
+                  <span class="text-bold">$250</span> / night
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-4 col-sm-6 col-xs-12 promotions__item">
+            <div class="promotion">
+              <a class="promotion__link" href="#"></a>
+              <div class="promotion__image">
+                <img src="./assets/images/forth_block/forth-block_4.jpg" alt="">
+              </div>
+              <div class="promotion__content">
+                <div class="promotion__description">
+                  <h4 class="promotion__country">
+                    Italy
+                  </h4>
+                  <div class="promotion__rating">4,93</div>
+                </div>
+                <h3 class="promotion__title">
+                  I SET TE CONI - TRULLO EDERA
+                </h3>
+              </div>
+              <div class="promotion__footer">
+                <div class="promotion__price">
+                  <span class="text-bold">$189</span> / night
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END ROW 1 -->
+          <div class="col-3 col-md-4 col-sm-6 col-xs-12 promotions__item">
+            <div class="promotion">
+              <a class="promotion__link" href="#"></a>
+              <div class="promotion__image">
+                <img src="./assets/images/forth_block/forth-block_5.jpg" alt="">
+              </div>
+              <div class="promotion__content">
+                <div class="promotion__description">
+                  <h4 class="promotion__country">
+                    Greece
+                  </h4>
+                  <div class="promotion__rating">4,93</div>
+                </div>
+                <h3 class="promotion__title">
+                  Luxurious stone villa In Crete
+                </h3>
+              </div>
+              <div class="promotion__footer">
+                <div class="promotion__price">
+                  <span class="text-bold">$210</span> / night
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-4 col-sm-6 col-xs-12 promotions__item">
+            <div class="promotion">
+              <a class="promotion__link" href="#"></a>
+              <div class="promotion__image">
+                <img src="./assets/images/forth_block/forth-block_6.jpg" alt="">
+              </div>
+              <div class="promotion__content">
+                <div class="promotion__description">
+                  <h4 class="promotion__country">
+                    Italy
+                  </h4>
+                  <div class="promotion__rating">4,86</div>
+                </div>
+                <h3 class="promotion__title">
+                  Splendida Casa sull'Albero a Pochi Minuti da Firenze
+                </h3>
+              </div>
+              <div class="promotion__footer">
+                <div class="promotion__price">
+                  <span class="text-bold">$199</span> / night
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-4 col-sm-6 col-xs-12 promotions__item md-screen-displ">
+            <div class="promotion">
+              <a class="promotion__link" href="#"></a>
+              <div class="promotion__image">
+                <img src="./assets/images/forth_block/forth-block_7.jpg" alt="">
+              </div>
+              <div class="promotion__content">
+                <div class="promotion__description">
+                  <h4 class="promotion__country">
+                    Italy
+                  </h4>
+                  <div class="promotion__rating">4,84</div>
+                </div>
+                <h3 class="promotion__title">
+                  Pettinarihome Campo de FIORI
+                </h3>
+              </div>
+              <div class="promotion__footer">
+                <div class="promotion__price">
+                  <span class="text-bold">$173</span> / night
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-4 col-sm-6 col-xs-12 promotions__item md-screen-displ">
+            <div class="promotion">
+              <a class="promotion__link" href="#"></a>
+              <div class="promotion__image">
+                <img src="./assets/images/forth_block/forth-block_8.jpg" alt="">
+              </div>
+              <div class="promotion__content">
+                <div class="promotion__description">
+                  <h4 class="promotion__country">
+                    China
+                  </h4>
+                  <div class="promotion__rating">4,80</div>
+                </div>
+                <h3 class="promotion__title">
+                  平江路大儒巷民国建筑，体验苏州老宅@元元的家
+                </h3>
+              </div>
+              <div class="promotion__footer">
+                <div class="promotion__price">
+                  <span class="text-bold">$269</span> / night
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-block__footer">
+          <a href="#" class="content-block__ref">Show (2000+)</a>
+        </div>
+      </div>
+    </main>
+    <footer class="page-footer footer">
+      <div class="footer__wrapper">
+        <div class="footer__content">
+          <div class="footer__info-column">
+            <div class="info-column_about info-column">
+              <h1 class="info-column__header">about</h1>
+              <a href="#" class="info-column__ref">Diversity & Belonging</a>
+              <a href="#" class="info-column__ref">Accessibility</a>
+              <a href="#" class="info-column__ref">Trust & Safety</a>
+              <a href="#" class="info-column__ref">Airbnb Citizen</a>
+              <a href="#" class="info-column__ref">Newsroom</a>
+            </div>
+            <div class="info-column_community info-column">
+              <h1 class="info-column__header">comunity</h1>
+              <a href="#" class="info-column__ref">Airbnb Magazine</a>
+              <a href="#" class="info-column__ref">Airbnb for Work</a>
+              <a href="#" class="info-column__ref">Invite friends</a>
+              <a href="#" class="info-column__ref">Careers</a>
+            </div>
+            <div class="info-column_host info-column">
+              <h1 class="info-column__header">host</h1>
+              <a href="#" class="info-column__ref">Host your home</a>
+              <a href="#" class="info-column__ref">Host an experience</a>
+              <a href="#" class="info-column__ref">Responsible hosting</a>
+              <a href="#" class="info-column__ref">Refer hosts</a>
+              <a href="#" class="info-column__ref">Open Homes</a>
+              <a href="#" class="info-column__ref">Olympics</a>
+              <a href="#" class="info-column__ref">Resource Centre</a>
+            </div>
+            <div class="info-column_support info-column">
+              <h1 class="info-column__header">support</h1>
+              <a href="#" class="info-column__ref">Help Centre</a>
+              <a href="#" class="info-column__ref">Neighbourhood Support</a>
+            </div>
+          </div>
+          
+          <!-- footer menu md-screen -->
+            <div class="footer__info-column-row footer-md  sm-screen-display">
+            <div class="footer-md__row">
+              <div class="footer-md__header">
+                <h1 class="info-column__header">about</h1>
+              </div>
+              <div class="footer-md__refs">
+                <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Diversity & Belonging</a>
+                  <a href="#" class="info-column__ref">Airbnb Citizen</a>
+                </div>
+                <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Accessibility</a>
+                  <a href="#" class="info-column__ref">Trust & Safety</a>
+                </div>
+                <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Newsroom</a>
+                </div>
+              </div>
+              </div>
+              <div class="fppter-md__row">
+                <div class="footer-md__header">
+                  <h1 class="info-column__header">comunity</h1>
+                </div>
+                <div class="footer-md__refs">
+                  <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Airbnb Magazine</a>
+                  <a href="#" class="info-column__ref">Careers</a>
+                </div>
+                <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Airbnb for Work</a>
+                </div>
+                <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Invite friends</a>
+                </div>
+                </div>
+              </div>
+              <div class="footer-md__row">
+                <div class="footer-md__header">
+                <h1 class="info-column__header">host</h1>
+              </div>
+              <div class="footer-md__refs">
+                <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Host your home</a>
+                  <a href="#" class="info-column__ref">Refer hosts</a>
+                  <a href="#" class="info-column__ref">Resource Centre</a>
+                </div>
+                <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Host an experience</a>
+                  <a href="#" class="info-column__ref">Open Homes</a>
+                </div>
+                <div class="footer-md__block">
+                  <a href="#" class="info-column__ref">Responsible hosting</a>
+                  <a href="#" class="info-column__ref">Olympics</a>
+                </div>                
+              </div>
+              </div>
+              <div class="footer-md__row">
+                <div class="footer-md__header">
+                <h1 class="info-column__header">support</h1>
+              </div>
+              <div class="footer-md__refs last-row">
+                <div class="footer-md__block">
+                <a href="#" class="info-column__ref">Help Centre</a>
+              </div>
+                <div class="footer-md__block">
+                <a href="#" class="info-column__ref">Neighbourhood Support</a>
+              </div>
+              </div>
+              </div>
+            </div>
+          <!-- footer menu md-screen-end -->
+          <!-- copyright block -->
+          <div class="footer__copyright copyright md-screen-displ">
+            <div class="copyright__text-block">
+              <p class="copyright__messege">
+                © 2020 Airbnb, Inc. All rights reserved
+              </p>
+              <a href="#" class="copyright__messege">Privacy</a>
+              <a href="#" class="copyright__messege">Terms</a>
+              <a href="#" class="copyright__messege">Sitemap</a>
+              <a href="#" class="copyright__messege">UK Modernt Slavery Act</a>
+              <a href="#" class="copyright__messege">Company details</a>
+            </div>
+            <div class="footer__icons">
+              <div class="footer__icon_box">
+                <a href="#"
+                  ><img
+                    src="./assets/images/footer/facebook.png"
+                    alt=""
+                    class="footer__icon"
+                /></a>
+              </div>
+              <div class="footer__icon_box">
+                <a href="#"
+                  ><img
+                    src="./assets/images/footer/twitter.png"
+                    alt=""
+                    class="footer__icon"
+                /></a>
+              </div>
+              <div class="footer__icon_box">
+                <a href="#"
+                  ><img
+                    src="./assets/images/footer/instagram.png"
+                    alt=""
+                    class="footer__icon"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!-- copyright block end -->
+          <!-- copyright md-screen -->          
+          <div class="footer__copyright_md">
+            <div class="footer__icons">
+              <div class="footer__icon_box">
+                <a href="#"
+                  ><img
+                    src="./assets/images/footer/facebook.png"
+                    alt=""
+                    class="footer__icon"
+                /></a>
+              </div>
+              <div class="footer__icon_box">
+                <a href="#"
+                  ><img
+                    src="./assets/images/footer/twitter.png"
+                    alt=""
+                    class="footer__icon"
+                /></a>
+              </div>
+              <div class="footer__icon_box">
+                <a href="#"
+                  ><img
+                    src="./assets/images/footer/instagram.png"
+                    alt=""
+                    class="footer__icon"
+                /></a>
+              </div>
+            </div>
+            <div class="copyright__text-block">
+              <p class="copyright__messege">
+                © 2020 Airbnb, Inc. All rights reserved
+              </p>
+               </div>
+              <div class="copyright_refs">
+              <a href="#" class="copyright__messege">Privacy</a>
+              <a href="#" class="copyright__messege">Terms</a>
+              <a href="#" class="copyright__messege">Sitemap</a>
+              <a href="#" class="copyright__messege"
+                >UK Modernt Slavery Act</a
+              >
+              <a href="#" class="copyright__messege"
+                >Company details</a
+              >
+            </div>            
+          </div>
+          <!-- copyright md-screen-end -->
+        </div>
+      </div>
+    </footer>
+    <script>
+      btn.onclick = function() {
+        menu.classList.toggle('global-menu_active');
+      };
+    </script>
+  </body>
+</html>

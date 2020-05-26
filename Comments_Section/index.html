@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comments section</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="comments-page">
+      <div class="input-block">
+        <input
+          type="text"
+          placeholder="Name"
+          required
+          class="input-block__name-input"
+        />
+        <textarea
+          name="Enter your comment"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Enter your comment"
+          class="input-block__message-input"
+          required
+        ></textarea>
+        <button class="input-block__btn">add</button>
+      </div>
+      <div class="comments"></div>
+    </div>
+    <script type="module" src="./scripts/modul_script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,365 @@
+:root {
+  --main-bg: #fceb6f;
+  --main-font-color: #333333;
+  --text-block-spacing: 68px;
+  --second-section-text-color: #3f3f3f;
+  --third-background-color-one: #f2f2f2;
+  --third-background-color-two: #ffcb00;
+}
+
+.header {
+  padding-top: 67px;
+  background: var(--main-bg);
+  color: var(--main-font-color);
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 52px;
+}
+
+.logo > img {
+  width: 100%;
+  display: block;
+}
+
+.nav {
+  font-size: 1rem;
+}
+
+.nav__link {
+  padding-right: 40px;
+  letter-spacing: 0.652123px;
+  color: var(--main-font-color);
+}
+
+.link:last-child {
+  padding-right: 0;
+}
+
+.main-section {
+  background: var(--main-bg);
+  height: 750px;
+}
+
+.main-section__content {
+  height: 100%;
+  display: flex;
+}
+
+.main-section__column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 50%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.main-section__text-block {
+  margin-bottom: 109px;
+}
+
+.text-block {
+  max-width: 495px;
+}
+
+.text-block__head-text {
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.text-block__description {
+  line-height: 31px;
+  font-weight: 300;
+  margin-top: var(--text-block-spacing);
+}
+
+.text-block__footer {
+  margin-top: var(--text-block-spacing);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-app-btn {
+  position: relative;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  border: 2px solid #3e3e3e;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.07);
+}
+
+.mobile-app-btn_apple {
+  border-radius: 100px;
+}
+
+.mobile-app-btn_android {
+  border-radius: 12px;
+}
+
+.mobile-app-btn__icon {
+  width: 40px;
+}
+
+.main-section__column_right {
+  position: relative;
+}
+
+.image__iphone {
+  position: absolute;
+  right: -83px;
+  bottom: 0;
+  max-height: 741px;
+}
+
+.second-section {
+  background: #ffff;
+  height: 745px;
+}
+
+.second-section__conent {
+  height: 100%;
+}
+
+.content__head-text {
+  padding-top: 79px;
+  text-align: center;
+  color: var(--second-section-text-color);
+}
+
+.head-text_header {
+  font-size: 2rem;
+  line-height: 63px;
+  letter-spacing: 1.30425px;
+  font-weight: normal;
+}
+
+.image-and-info__content {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.content__column {
+  text-align: center;
+}
+
+.column_first_logo {
+  width: 175px;
+}
+
+.column_second_logo {
+  width: 212px;
+}
+
+.column_third_logo {
+  width: 209px;
+}
+
+.column_text {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.782547px;
+  color: var(--second-section-text-color);
+  margin-top: 41px;
+}
+
+.image-and-info__footer {
+  margin: 96px auto 0;
+  max-width: 508px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-and-info__button {
+  border: none;
+}
+
+.third-section {
+  height: 655px;
+  background: #f8f8f8;
+}
+
+.third-section__conent {
+  height: 100%;
+  position: relative;
+  background: linear-gradient(
+    to right,
+    #f8f8f8 11%,
+    rgba(255, 203, 0, 0.46) 11%,
+    rgba(255, 203, 0, 0.46) 25%,
+    #f8f8f8 25%
+  );
+}
+
+.third-section__text-block {
+  padding-top: 147px;
+  max-width: 619px;
+  text-align: left;
+}
+
+.text-block_head-one {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 1.23077px;
+  color: var(--second-section-text-color);
+}
+
+.text-block_head-two {
+  margin-top: 9px;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.923077px;
+  color: #7a7a7a;
+}
+
+.text-block_description {
+  margin-top: 44px;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.676923px;
+  color: #3f3f3f;
+}
+
+.image_iphones {
+  position: absolute;
+  top: -35px;
+  right: -180px;
+  width: 930px;
+}
+
+.join-us-section {
+  background: #ffff;
+  height: 465px;
+}
+
+.join-us-section__conent {
+  height: 100%;
+}
+
+.join-us-section__text-block {
+  margin: auto;
+  text-align: center;
+  max-width: 732px;
+  padding-top: 57px;
+}
+
+.head-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 55px;
+  letter-spacing: 1.30425px;
+  color: var(--second-section-text-color);
+}
+
+.description-text {
+  margin-top: 48px;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 31px;
+  letter-spacing: 0.652123px;
+  color: var(--second-section-text-color);
+}
+
+.join-us-section__footer {
+  margin: 57px auto;
+  max-width: 732px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_email {
+  width: 501px;
+  height: 70px;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.521698px;
+  color: var(--second-section-text-color);
+  mix-blend-mode: normal;
+  opacity: 0.19;
+  padding: 22px 30px;
+  border: transparent;
+}
+
+.join-us-section_btn {
+  border: none;
+  width: 173px;
+  height: 70px;
+}
+
+.footer_btn {
+  background: linear-gradient(143.97deg, #fceb6f 19.71%, #fede60 74.71%);
+  box-shadow: 0px 6px 9px rgba(244, 214, 58, 0.591401);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.626038px;
+  color: #ffffff;
+}
+
+.footer-section {
+  background: #2a2a2a;
+  height: 252px;
+}
+
+.footer-section__conent {
+  height: 100%;
+}
+
+.footer-section__logo {
+  padding-top: 84px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo_footer-img {
+  width: 55px;
+}
+
+.footer__nav {
+  font-size: 20px;
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__link {
+  font-style: normal;
+  line-height: 25px;
+  letter-spacing: 0.19px;
+  color: #ffffff;
+  padding-right: 16px;
+}
+
+.footer__copyright {
+  margin: 35px auto 23px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.copyright_text {
+  font-style: normal;
+  line-height: 25px;
+  letter-spacing: 0.19px;
+  color: #8f8f8f;
+}

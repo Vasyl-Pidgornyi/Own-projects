@@ -1,0 +1,44 @@
+@mixin conteiner {
+  width: 100%;
+  padding: 0 1rem;
+  max-width: calc(1400px + 2rem);
+  margin: 40px auto 0;
+}
+
+@mixin normalizeImage {
+  width: 100%;
+  & > img {
+    width: 100%;
+    display: block;
+  }
+}
+
+@mixin blockHeaderMargin {
+  margin-bottom: 10px;
+}
+
+@mixin exploringImagez {
+  height: 100%;
+  & > img {
+    height: 84px;
+    display: block;
+  }
+}
+
+@mixin exploringImagez-md-screen {
+  height: 100%;
+  & > img {
+    min-height: 195px;
+    width: 100%;
+    display: block;
+  }
+}
+
+@mixin exploringImagez-sm-screen {
+  height: 100%;
+  & > img {
+    min-height: 120px;
+    width: 100%;
+    display: block;
+  }
+}

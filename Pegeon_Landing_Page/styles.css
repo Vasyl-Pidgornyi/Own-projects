@@ -1,0 +1,150 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  background: #33cccc;
+  padding: 50px 100px;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  max-width: 250px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
+.menu-btn {
+  font-size: 14px;
+  color: #ffffff;
+  border: 1px solid #33cccc;
+  background: #33cccc;
+  border-radius: 4px;
+  text-align: center;
+  padding: 8px 25px;
+  outline: none;
+}
+
+.menu-btn:hover {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  color: #ff6845;
+}
+
+.content-messege {
+  position: relative;
+  margin-top: 298px;
+  max-width: 577px;
+  color: #ffffff;
+}
+
+.messege-header {
+  font-size: 42px;
+}
+
+.messege {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.phone-wrapper {
+  margin-top: 50px;
+}
+
+.phone-number {
+  width: 286px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: none;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.text-me-btn {
+  display: flex;
+  width: 286px;
+  height: 50px;
+  background: #4a4a4a;
+  border-radius: 2px;
+  border: none;
+  margin-top: 10px;
+  padding: 13px 70px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+footer {
+  position: absolute;
+  left: 100px;
+  bottom: 50px;
+  color: #ffffff;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  max-width: 150px;
+}
+
+.socials > img {
+  width: 20px;
+  display: block;
+}
+
+.copyrights {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.phone-img {
+  position: absolute;
+  z-index: 1;
+  top: 270px;
+  right: 257px;
+}
+
+.vote-img {
+  position: absolute;
+  z-index: 1;
+  top: 320px;
+  right: 100px;
+}
+
+.respond-img {
+  position: absolute;
+  z-index: 1;
+  top: 363px;
+  right: 421px;
+}
+
+.earn-img {
+  position: absolute;
+  z-index: 1;
+  top: 504px;
+  right: 161px;
+}
+
+.arrow-img {
+  position: absolute;
+  z-index: 0;
+  left: 0px;
+  top: 0px;
+}
+
+.body-img {
+  position: absolute;
+  z-index: 0;
+  left: 0px;
+  bottom: 0px;
+}

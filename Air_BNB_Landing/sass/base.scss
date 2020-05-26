@@ -1,0 +1,76 @@
+@import "./variables";
+@import "./mixins";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $default-text-color;
+  font-size: 15px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  font-size: 1rem;
+  font-family: "Nunito";
+}
+
+.content-wrapper {
+  @include conteiner;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+.text-regular {
+  font-weight: 500;
+}
+
+.page-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.block-header_text {
+  font-size: 22px;
+  line-height: 26px;
+  color: $default-text-color;
+}
+
+.block-header_description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $default-text-color;
+  margin-top: 3px;
+}

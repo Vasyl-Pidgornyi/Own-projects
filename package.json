@@ -1,0 +1,24 @@
+{
+  "name": "web-academy",
+  "version": "1.0.0",
+  "description": "Different tasks made during web-academy courses",
+  "main": "index.js",
+  "scripts": {
+    "local-server": "http-server -c-1 ./",
+    "inner-sass": "sass --watch ./sass:./css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasyl-Pidgornyi/Web-Academy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasyl-Pidgornyi/Web-Academy/issues"
+  },
+  "homepage": "https://github.com/Vasyl-Pidgornyi/Web-Academy#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "sass": "^1.26.5"
+  }
+}

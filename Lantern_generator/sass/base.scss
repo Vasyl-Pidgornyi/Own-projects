@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: #000000;
+  font-size: 13px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  font-size: 1rem;
+  font-family: "Nunito";
+}
+
+.text-bold {
+  font-weight: 800;
+}
+.text-regular {
+  font-weight: 500;
+}
