@@ -1,10 +1,20 @@
-const lights = document.querySelectorAll(".lighter__light");
+const red = document.querySelector(".red");
+const yellow = document.querySelector(".yellow");
+const green = document.querySelector(".green");
 
-function disableAll() {
-  for (let i = 0; i < lights.length; i++) lights[i].classList.remove("active");
-}
+window.onload = function start() {
+  this.setInterval(runTheLight, 4000);
+};
 
-function onClick(button) {
-  disableAll();
-  button.classList.add("active");
+function runTheLight() {
+  green.classList.remove("active");
+  red.classList.add("active");
+  setTimeout(() => {
+    red.classList.remove("active");
+    yellow.classList.add("active");
+  }, 1000);
+  setTimeout(() => {
+    yellow.classList.remove("active");
+    green.classList.add("active");
+  }, 2000);
 }
