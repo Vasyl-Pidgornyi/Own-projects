@@ -4,8 +4,8 @@
   "description": "Different tasks made during web-academy courses",
   "main": "index.js",
   "scripts": {
-    "local-server": "http-server -c-1 ./",
-    "inner-sass": "sass --watch ./sass:./css"
+    "server": "http-server -c-1 ./",
+    "sass": "sass --watch ./sass:./css"
   },
   "repository": {
     "type": "git",
